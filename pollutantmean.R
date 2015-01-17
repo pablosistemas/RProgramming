@@ -15,11 +15,6 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
   # source("~/Documents/pablo/coursera/rprog/pollutantmean.R")
   # directory<-"~/Documents/pablo/coursera/rprog/specdata"
   setwd(directory)
-#   file.name<-paste(sprintf("%03d",id[1]),"csv",sep=".")
-#   file<-read.csv(file.name)
-#   good<-complete.cases(file)
-#   file.good<-file[good,][[pollutant]]
-#   rm(file)
   file.good<-NULL;
   for(i in 1:length(id))
   {

@@ -13,9 +13,6 @@ complete <- function(directory, id = 1:332) {
   ## where 'id' is the monitor ID number and 'nobs' is the
   ## number of complete cases
   
-  # source("~/Documents/pablo/coursera/rprog/complete.R")
-  # directory<-"~/Documents/pablo/coursera/rprog/specdata"
-  
   setwd(directory)
   
   nobs<-vector(mode="integer",length=(length(id)))
